@@ -1,0 +1,132 @@
+
+.main {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 512px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+.categories {
+  height: 515px;
+  overflow-y: auto;
+  margin-top: 5px;
+  scroll-behavior: auto;
+}
+
+.control-panel {
+  padding-top: 5px;
+}
+.control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.control label{
+  margin-left: 10px;
+  color: aqua;
+  font-size: 15px;
+  font-weight: bold;
+  width: 20px;
+}
+
+.radio {
+  display: none;
+}
+
+.radio + label {
+  padding: 10px;
+  border: 2px solid #005577;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px; 
+  height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.radio:checked + label{
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+
+.on-button, .off-button {
+  width: 40px; 
+  height: 40px;
+  border: 2px solid #005577;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  margin:5px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+.control-temperature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.temp-minus, .temp-plus, .temp-equals {
+  width: 40px; 
+  height: 40px;
+  border: 2px solid #005577;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  border-radius: 5px;
+  font-size: 30px;
+  cursor: pointer;
+
+}
+.on-call{
+  width: 55px; 
+  height: 40px;
+  border: 2px solid #005577;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.on-call.active {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+.temp-display {
+  width: 50px; 
+  height: 35px;
+  color: lime;
+  line-height: 35px; 
+  font-size: 1.1em; 
+  font-weight: bold; 
+  margin: 5px;
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+}
+
+.add-button {
+  width: 60px;
+  height: 60px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  cursor: pointer;
+}

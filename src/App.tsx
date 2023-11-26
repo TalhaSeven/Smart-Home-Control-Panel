@@ -1,25 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import MainContent from "./components/MainContent";
+import Sidebar from "./components/SideBar";
+interface SidebarItem {
+  id: string;
+  title: string;
+  type: string; 
+  status?: string;
+  temperature?: number;
+  position?: string;
+}
+function App() {// eslint-disable-next-line
+  const [sidebarContent, setSidebarContent] = useState<SidebarItem[]>([]);
 
-function App() {
+  const handleAddToSidebar = (content: SidebarItem) => {
+    setSidebarContent([...sidebarContent, content]);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="app">
+      <MainContent onAddToSidebar={handleAddToSidebar} />
+      <Sidebar content={sidebarContent} />
+      </div>
   );
 }
 

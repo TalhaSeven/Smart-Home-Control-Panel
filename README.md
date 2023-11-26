@@ -1,46 +1,38 @@
-# Getting Started with Create React App
+# Smart Home Control Panel
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project allows you to manage smart devices in your home through a modern and user-friendly web-based interface. Designed for you to easily control the technology in your home, this panel aims to make your daily life more comfortable and efficient. It is compatible with a wide range of devices from alarm systems to heaters, lighting to curtain controls.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Alarm System Management**: Increase the security of your home. You can activate, deactivate or check the status of the alarm system.
 
-### `npm start`
+- **Heater Temperature Adjustment**: Adjust the temperature of your home as you wish. Create the ideal home environment at all times by remotely controlling the heater's temperature settings.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Lighting Control**: Turn your lamps on or off with a single click. Adjust the intensity of the light to create the perfect atmosphere for every room.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Curtain and Blinds Control**: Control your curtains and blinds remotely. Regulate sunlight or protect your privacy.
 
-### `npm test`
+- **Integration with Other Smart Devices**: Full integration with other elements of your home automation systems. Manage all your smart devices from a single center.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This control panel simplifies your home automation and makes your daily routines more enjoyable. Combining modern technology with the comfort of your home, this system maximizes your smart home experience.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Akıllı Ev Kontrol Paneli
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Bu proje, modern ve kullanıcı dostu bir web tabanlı arayüz aracılığıyla evinizdeki akıllı cihazları yönetmenize olanak tanır. Evinizdeki teknolojiyi kolayca kontrol edebilmeniz için tasarlanmış olan bu panel, günlük yaşamınızı daha rahat ve verimli hale getirmeyi amaçlar. Alarm sistemlerinden ısıtıcılara, aydınlatmadan perde kontrollerine kadar geniş bir yelpazede cihazlarla uyumludur.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Özellikler
 
-### `npm run eject`
+- **Alarm Sistemi Yönetimi**: Evinizin güvenliğini artırın. Alarm sistemini aktif hale getirebilir, devre dışı bırakabilir veya durumunu kontrol edebilirsiniz.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **Isıtıcı Sıcaklık Ayarı**: Evinizin sıcaklığını istediğiniz gibi ayarlayın. Isıtıcının sıcaklık ayarlarını uzaktan kontrol ederek, her zaman için ideal ev ortamını yaratın.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Aydınlatma Kontrolü**: Lambalarınızı tek bir tıklamayla açın veya kapatın. Işığın yoğunluğunu ayarlayarak, her oda için mükemmel atmosferi oluşturun.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- **Perde ve Panjur Kontrolü**: Perdelerinizi ve panjurlarınızı uzaktan kontrol edin. Güneş ışığını düzenleyin veya mahremiyetinizi koruyun.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- **Diğer Akıllı Cihazlarla Entegrasyon**: Ev otomasyon sistemlerinizin diğer elemanları ile tam entegrasyon. Tüm akıllı cihazlarınızı tek bir merkezden yönetin.
 
-## Learn More
+Bu kontrol paneli, ev otomasyonunuzu kolaylaştırır ve günlük rutinlerinizi daha keyifli hale getirir. Modern teknolojiyi evinizin konforuyla birleştiren bu sistem, akıllı ev deneyiminizi üst düzeye çıkarır.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
