@@ -206,7 +206,8 @@ const Sidebar: React.FC<SidebarProps> = ({ content }) => {
         return <span>{item.title}</span>;
     }
   };
-  const renderDelayControls = (id: string) => {
+  const renderDelayControls = (id: string) => { 
+    // eslint-disable-next-line
     const delay = delays[id] || 0;
     return (
       <div className="delay-controls">
